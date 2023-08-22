@@ -1,0 +1,30 @@
+{
+  "status": true,
+  "msg": "success",
+  "data": [
+    {
+      "label": "Boxes",
+      "value": "boxes"
+    },
+    {
+      "label": "Bags",
+      "value": "bags"
+    },
+    {
+      "label": "Pallets",
+      "value": "pallets"
+    },
+    {
+      "label": "Drums",
+      "value": "drums"
+    },
+    {
+      "label": "Others",
+      "value": "others"
+    },
+    {
+      "label": "None",
+      "value": "none"
+    }
+  ]
+}

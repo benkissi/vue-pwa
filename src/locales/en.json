@@ -1,0 +1,10 @@
+{
+  "navigation": {
+    "shipments": "Shipments",
+    "shipmentDetails": "Shipment detail",
+    "uploadBill": "Upload bill",
+    "confirmCargo": "Confirm cargo",
+    "cargoDetails": "Cargo details",
+    "editBill": "Edit Bill"
+  }
+}

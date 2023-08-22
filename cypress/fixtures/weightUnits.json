@@ -1,0 +1,18 @@
+{
+  "status": true,
+  "msg": "success",
+  "data": [
+    {
+      "label": "Pounds",
+      "value": "lbs"
+    },
+    {
+      "label": "Kilograms",
+      "value": "kgs"
+    },
+    {
+      "label": "Metric Tonnes",
+      "value": "metric-tonnes"
+    }
+  ]
+}

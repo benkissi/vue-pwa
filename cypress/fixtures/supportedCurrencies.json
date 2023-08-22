@@ -1,0 +1,30 @@
+{
+  "status": true,
+  "msg": "Success",
+  "data": [
+    {
+      "label": "Cedi",
+      "value": "GHS"
+    },
+    {
+      "label": "Pounds",
+      "value": "GBP"
+    },
+    {
+      "label": "Dollar",
+      "value": "USD"
+    },
+    {
+      "label": "Euro",
+      "value": "EUR"
+    },
+    {
+      "label": "Naira",
+      "value": "NGN"
+    },
+    {
+      "label": "Yen",
+      "value": "JPY"
+    }
+  ]
+}

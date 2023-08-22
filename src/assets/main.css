@@ -1,0 +1,9 @@
+@import '@jetstreamafrica/jetvision-ui-lib/index.css';
+@import 'primevue/resources/themes/lara-light-blue/theme.css';
+@import 'primevue/resources/primevue.min.css';
+@import 'primeicons/primeicons.css';
+
+@import './base.css';
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+}

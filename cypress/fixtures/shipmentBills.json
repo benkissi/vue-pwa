@@ -1,0 +1,337 @@
+{
+  "status": true,
+  "msg": "Success",
+  "data": [
+    {
+      "id": "01h63ke2pkez8w6a6g8q0td9xs",
+      "vendor_id": "01h4e5h4msvk4t2fnnngqbgkzz",
+      "bill_amount": "3000.00",
+      "currency": "GHS",
+      "created_at": "2023-07-24T09:24:38.000000Z",
+      "updated_at": "2023-07-26T12:45:46.000000Z",
+      "payment_status": "paid",
+      "shipment_id": "01h1m2bygc6grdgx3261phnrmv",
+      "financing_request_id": "01h1m2c6cbtachvw8kn88w7pfm",
+      "shipment_bill_id": "JSB-00082",
+      "invoice_number": "assw333ffs",
+      "vendor_name": "Magnus Trucking",
+      "alternate_currency": null,
+      "alternate_amount": null,
+      "exchange_rate": null,
+      "primary_currency": null,
+      "primary_amount": "3000.00",
+      "po_number": null,
+      "uploaded_by": "Benjamin Kissi",
+      "company_name": "JetTest",
+      "payment_mode": null,
+      "note": null,
+      "deleted_at": null,
+      "documents": {
+        "vendor_bill": [
+          {
+            "id": 937,
+            "file_name": "adidas.jpeg",
+            "original_url": "https://dmznzvpllzeku.cloudfront.net/937/adidas.jpeg",
+            "custom_properties": [],
+            "status": null,
+            "created_at": "2023-07-24T09:24:38.000000Z"
+          }
+        ]
+      },
+      "vendor": {
+        "id": "01h4e5h4msvk4t2fnnngqbgkzz",
+        "created_at": "2023-07-03T15:21:54.000000Z",
+        "updated_at": "2023-07-03T15:21:54.000000Z",
+        "deleted_at": null,
+        "business_name": "Magnus Trucking",
+        "vendor_type": "Truck owner",
+        "business_address": "Lagos",
+        "business_phone_number": "+234 908 873 2567",
+        "business_email": null,
+        "contact_person_first_name": null,
+        "contact_person_last_name": null,
+        "contact_person_phone_number": null,
+        "contact_person_email": null,
+        "status": "active",
+        "business_address_details": {
+          "street": null,
+          "sub_locality": null,
+          "city": "Lagos",
+          "country": "Nigeria",
+          "countryCode": "NG",
+          "long": 3.3792057,
+          "lat": 6.5243793,
+          "name": "Lagos"
+        },
+        "for_logistics_partner": false,
+        "logistics_partner_id": null
+      },
+      "services": [
+        {
+          "id": "01h14veh1baw5zhj0y8rfctt67",
+          "name": "E-tracking",
+          "created_at": "2023-05-23T17:45:27.000000Z",
+          "updated_at": "2023-05-23T17:45:27.000000Z",
+          "deleted_at": null,
+          "pivot": {
+            "bill_id": "01h63ke2pkez8w6a6g8q0td9xs",
+            "service_id": "01h14veh1baw5zhj0y8rfctt67",
+            "service_name": "E-tracking",
+            "amount": "1000.00"
+          }
+        },
+        {
+          "id": "01h14veq7x1hh7vz5t53fcgvz1",
+          "name": "First Mile Cost",
+          "created_at": "2023-05-23T17:45:33.000000Z",
+          "updated_at": "2023-05-23T17:45:33.000000Z",
+          "deleted_at": null,
+          "pivot": {
+            "bill_id": "01h63ke2pkez8w6a6g8q0td9xs",
+            "service_id": "01h14veq7x1hh7vz5t53fcgvz1",
+            "service_name": "First Mile Cost",
+            "amount": "2000.00"
+          }
+        }
+      ],
+      "bill_payment": {
+        "id": "01h693qrn47qg9xdhmzwqz2dc4",
+        "amount_paid": "3000.0000",
+        "payment_mode": "bank",
+        "payment_note": "undefined",
+        "bill_id": "01h63ke2pkez8w6a6g8q0td9xs",
+        "payment_date": "2023-07-26 12:45:45",
+        "alternate_amount_paid": null,
+        "alternate_amount_paid_currency": null,
+        "created_at": "2023-07-26T12:45:45.000000Z",
+        "updated_at": "2023-07-26T12:45:45.000000Z",
+        "deleted_at": null,
+        "approved_amount_paid": null,
+        "approved_amount_paid_currency": null,
+        "repayment_date": null,
+        "currency": "GHS",
+        "bank_id": "01h3h7vbzqtsyjkxd1zr9r605x",
+        "account_name": "Jetstream Official",
+        "documents": {
+          "bill_payment_receipt": [
+            {
+              "id": 1032,
+              "file_name": "Screenshot-2023-07-17-170544.png",
+              "original_url": "https://dmznzvpllzeku.cloudfront.net/1032/Screenshot-2023-07-17-170544.png",
+              "custom_properties": [],
+              "status": null,
+              "created_at": "2023-07-26T12:45:45.000000Z"
+            }
+          ]
+        },
+        "media": [
+          {
+            "id": 1032,
+            "model_type": "App\\Models\\BillPayment",
+            "model_id": "01h693qrn47qg9xdhmzwqz2dc4",
+            "uuid": "912aad30-3150-42e4-a1ff-4567b476e503",
+            "collection_name": "bill_payment_receipt",
+            "name": "Screenshot 2023-07-17 170544",
+            "file_name": "Screenshot-2023-07-17-170544.png",
+            "mime_type": "image/png",
+            "disk": "s3",
+            "conversions_disk": "s3",
+            "size": 56716,
+            "manipulations": [],
+            "custom_properties": [],
+            "generated_conversions": [],
+            "responsive_images": [],
+            "order_column": 1,
+            "created_at": "2023-07-26T12:45:45.000000Z",
+            "updated_at": "2023-07-26T12:45:45.000000Z",
+            "original_url": "https://dmznzvpllzeku.cloudfront.net/1032/Screenshot-2023-07-17-170544.png",
+            "preview_url": ""
+          }
+        ]
+      },
+      "media": [
+        {
+          "id": 937,
+          "model_type": "App\\JetLogistics\\Bills\\Models\\Bill",
+          "model_id": "01h63ke2pkez8w6a6g8q0td9xs",
+          "uuid": "28e28563-5d09-440f-9a01-289c6cdd583e",
+          "collection_name": "vendor_bill",
+          "name": "adidas",
+          "file_name": "adidas.jpeg",
+          "mime_type": "image/jpeg",
+          "disk": "s3",
+          "conversions_disk": "s3",
+          "size": 52688,
+          "manipulations": [],
+          "custom_properties": [],
+          "generated_conversions": [],
+          "responsive_images": [],
+          "order_column": 1,
+          "created_at": "2023-07-24T09:24:38.000000Z",
+          "updated_at": "2023-07-24T09:24:38.000000Z",
+          "original_url": "https://dmznzvpllzeku.cloudfront.net/937/adidas.jpeg",
+          "preview_url": ""
+        }
+      ]
+    },
+    {
+      "id": "01h62bz1pp57x2khfzq1xcg98b",
+      "vendor_id": "01h4dwra1h2hynm4rrshqhf50t",
+      "bill_amount": "2000.00",
+      "currency": "GHS",
+      "created_at": "2023-07-23T21:54:51.000000Z",
+      "updated_at": "2023-08-01T13:08:22.000000Z",
+      "payment_status": "paid",
+      "shipment_id": "01h1m2bygc6grdgx3261phnrmv",
+      "financing_request_id": "01h1m2c6cbtachvw8kn88w7pfm",
+      "shipment_bill_id": "JSB-00079",
+      "invoice_number": "6728e8djdj343j",
+      "vendor_name": "Wendell",
+      "alternate_currency": null,
+      "alternate_amount": null,
+      "exchange_rate": null,
+      "primary_currency": null,
+      "primary_amount": "2000.00",
+      "po_number": null,
+      "uploaded_by": "Benjamin Kissi",
+      "company_name": "JetTest",
+      "payment_mode": null,
+      "note": null,
+      "deleted_at": null,
+      "documents": {
+        "vendor_bill": [
+          {
+            "id": 930,
+            "file_name": "bblogo.jpeg",
+            "original_url": "https://dmznzvpllzeku.cloudfront.net/930/bblogo.jpeg",
+            "custom_properties": [],
+            "status": null,
+            "created_at": "2023-07-23T21:54:51.000000Z"
+          }
+        ]
+      },
+      "vendor": {
+        "id": "01h4dwra1h2hynm4rrshqhf50t",
+        "created_at": "2023-07-03T12:48:31.000000Z",
+        "updated_at": "2023-07-03T12:48:31.000000Z",
+        "deleted_at": null,
+        "business_name": "Wendell",
+        "vendor_type": "Shipping line owner",
+        "business_address": "Apo Roundabout",
+        "business_phone_number": "+234 803 390 9367",
+        "business_email": null,
+        "contact_person_first_name": null,
+        "contact_person_last_name": null,
+        "contact_person_phone_number": null,
+        "contact_person_email": null,
+        "status": "active",
+        "business_address_details": {
+          "street": "Apo Roundabout",
+          "sub_locality": null,
+          "city": "Abuja",
+          "country": "Nigeria",
+          "countryCode": "NG",
+          "long": 7.491185199999999,
+          "lat": 9.0134554,
+          "name": "Apo Roundabout"
+        },
+        "for_logistics_partner": false,
+        "logistics_partner_id": null
+      },
+      "services": [
+        {
+          "id": "01h14vej7s0y5tj2amrp12trpg",
+          "name": "Freight Cost",
+          "created_at": "2023-05-23T17:45:28.000000Z",
+          "updated_at": "2023-05-23T17:45:28.000000Z",
+          "deleted_at": null,
+          "pivot": {
+            "bill_id": "01h62bz1pp57x2khfzq1xcg98b",
+            "service_id": "01h14vej7s0y5tj2amrp12trpg",
+            "service_name": "Freight Cost",
+            "amount": "2000.00"
+          }
+        }
+      ],
+      "bill_payment": {
+        "id": "01h6rkdf47bq0kfqagravanhtf",
+        "amount_paid": "2000.0000",
+        "payment_mode": "mobile_money",
+        "payment_note": "test",
+        "bill_id": "01h62bz1pp57x2khfzq1xcg98b",
+        "payment_date": "2023-08-01 13:08:21",
+        "alternate_amount_paid": null,
+        "alternate_amount_paid_currency": null,
+        "created_at": "2023-08-01T13:08:21.000000Z",
+        "updated_at": "2023-08-01T13:08:21.000000Z",
+        "deleted_at": null,
+        "approved_amount_paid": null,
+        "approved_amount_paid_currency": null,
+        "repayment_date": null,
+        "currency": "GHS",
+        "bank_id": "01h3ejskms25kw5gdm409sg6qw",
+        "account_name": "account_1",
+        "documents": {
+          "bill_payment_receipt": [
+            {
+              "id": 1106,
+              "file_name": "1.pdf",
+              "original_url": "https://dmznzvpllzeku.cloudfront.net/1106/1.pdf",
+              "custom_properties": [],
+              "status": null,
+              "created_at": "2023-08-01T13:08:21.000000Z"
+            }
+          ]
+        },
+        "media": [
+          {
+            "id": 1106,
+            "model_type": "App\\Models\\BillPayment",
+            "model_id": "01h6rkdf47bq0kfqagravanhtf",
+            "uuid": "12b40941-cf93-4244-98f2-3e0a138f08a6",
+            "collection_name": "bill_payment_receipt",
+            "name": "1",
+            "file_name": "1.pdf",
+            "mime_type": "application/pdf",
+            "disk": "s3",
+            "conversions_disk": "s3",
+            "size": 33463,
+            "manipulations": [],
+            "custom_properties": [],
+            "generated_conversions": [],
+            "responsive_images": [],
+            "order_column": 1,
+            "created_at": "2023-08-01T13:08:21.000000Z",
+            "updated_at": "2023-08-01T13:08:21.000000Z",
+            "original_url": "https://dmznzvpllzeku.cloudfront.net/1106/1.pdf",
+            "preview_url": ""
+          }
+        ]
+      },
+      "media": [
+        {
+          "id": 930,
+          "model_type": "App\\JetLogistics\\Bills\\Models\\Bill",
+          "model_id": "01h62bz1pp57x2khfzq1xcg98b",
+          "uuid": "226ee862-1bf0-48b8-878c-bbf5221485a7",
+          "collection_name": "vendor_bill",
+          "name": "bblogo",
+          "file_name": "bblogo.jpeg",
+          "mime_type": "image/jpeg",
+          "disk": "s3",
+          "conversions_disk": "s3",
+          "size": 60857,
+          "manipulations": [],
+          "custom_properties": [],
+          "generated_conversions": [],
+          "responsive_images": [],
+          "order_column": 1,
+          "created_at": "2023-07-23T21:54:51.000000Z",
+          "updated_at": "2023-07-23T21:54:51.000000Z",
+          "original_url": "https://dmznzvpllzeku.cloudfront.net/930/bblogo.jpeg",
+          "preview_url": ""
+        }
+      ]
+    }
+  ]
+}

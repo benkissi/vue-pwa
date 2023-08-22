@@ -1,0 +1,80 @@
+{
+  "status": true,
+  "msg": "Success",
+  "data": {
+    "id": "01h82a3pcff5wn0mqaegck6g23",
+    "vendor_id": "01h2acx2b8bpbvtw2x7b1gpx5r",
+    "bill_amount": "2000.00",
+    "currency": "GHS",
+    "created_at": "2023-08-17T17:53:50.000000Z",
+    "updated_at": "2023-08-17T17:53:50.000000Z",
+    "payment_status": "not-paid",
+    "shipment_id": "01h1m2bygc6grdgx3261phnrmv",
+    "financing_request_id": "01h1m2c6cbtachvw8kn88w7pfm",
+    "shipment_bill_id": "JSB-00117",
+    "invoice_number": "6728e8djdj343j",
+    "vendor_name": "Alli Trucking",
+    "alternate_currency": null,
+    "alternate_amount": null,
+    "exchange_rate": null,
+    "primary_currency": null,
+    "primary_amount": "2000.00",
+    "po_number": "sdsds",
+    "uploaded_by": "Benjamin Kissi",
+    "company_name": "JetTest",
+    "payment_mode": "bank",
+    "note": "ddad",
+    "deleted_at": null,
+    "documents": {
+      "vendor_bill": [
+        {
+          "id": 1238,
+          "file_name": "adidas.jpeg",
+          "original_url": "https://dmznzvpllzeku.cloudfront.net/1238/adidas.jpeg",
+          "custom_properties": [],
+          "status": null,
+          "created_at": "2023-08-17T17:53:50.000000Z"
+        }
+      ]
+    },
+    "services": [
+      {
+        "id": "01h14ver38fw0c0p3agajq578z",
+        "name": "Last Mile Cost",
+        "created_at": "2023-05-23T17:45:34.000000Z",
+        "updated_at": "2023-05-23T17:45:34.000000Z",
+        "deleted_at": null,
+        "pivot": {
+          "bill_id": "01h82a3pcff5wn0mqaegck6g23",
+          "service_id": "01h14ver38fw0c0p3agajq578z",
+          "service_name": "Last Mile Cost",
+          "amount": "2000.00"
+        }
+      }
+    ],
+    "media": [
+      {
+        "id": 1238,
+        "model_type": "App\\JetLogistics\\Bills\\Models\\Bill",
+        "model_id": "01h82a3pcff5wn0mqaegck6g23",
+        "uuid": "c1159a78-498b-45e8-911f-94e918693433",
+        "collection_name": "vendor_bill",
+        "name": "adidas",
+        "file_name": "adidas.jpeg",
+        "mime_type": "image/jpeg",
+        "disk": "s3",
+        "conversions_disk": "s3",
+        "size": 52688,
+        "manipulations": [],
+        "custom_properties": [],
+        "generated_conversions": [],
+        "responsive_images": [],
+        "order_column": 1,
+        "created_at": "2023-08-17T17:53:50.000000Z",
+        "updated_at": "2023-08-17T17:53:50.000000Z",
+        "original_url": "https://dmznzvpllzeku.cloudfront.net/1238/adidas.jpeg",
+        "preview_url": ""
+      }
+    ]
+  }
+}

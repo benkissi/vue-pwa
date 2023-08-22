@@ -1,0 +1,67 @@
+{
+  "status": true,
+  "msg": "Cargo details has been confirmed",
+  "data": {
+    "id": "01h81y7w7y80vdzvazcnsvgx8h",
+    "shipment_id": "01h1m2bygc6grdgx3261phnrmv",
+    "cargo_id": "01h1m2bywxxjwe2e7wbxdf4d9x",
+    "created_at": "2023-08-17T14:26:24.000000Z",
+    "updated_at": "2023-08-17T14:26:24.000000Z",
+    "shipment_cargo_id": "01h1m2bywxxjwe2e7wbxdf4d9x",
+    "confirmed_cargo_details": [
+      {
+        "id": "01h81y7wb8en9jzbfxdt4ydg32",
+        "weight": "1000.00",
+        "weight_unit": "kgs",
+        "confirmed_cargo_id": "01h81y7w7y80vdzvazcnsvgx8h",
+        "created_at": "2023-08-17T14:26:24.000000Z",
+        "updated_at": "2023-08-17T14:26:24.000000Z",
+        "description": "sdsds",
+        "package_quantity": 20,
+        "commodity_type": "Banana",
+        "volume": null,
+        "cargo_detail_id": null,
+        "is_completed": true,
+        "package_type": "boxes",
+        "cargo_condition": "Good",
+        "commodity_detail_id": "01h1m2byx48bp3d3h409n57jrc",
+        "documents": {
+          "confirmed_cargo_image": [
+            {
+              "id": 1237,
+              "file_name": "adidas.jpeg",
+              "original_url": "https://dmznzvpllzeku.cloudfront.net/1237/adidas.jpeg",
+              "custom_properties": [],
+              "status": null,
+              "created_at": "2023-08-17T14:26:24.000000Z"
+            }
+          ]
+        },
+        "media": [
+          {
+            "id": 1237,
+            "model_type": "App\\Models\\ConfirmedCargoDetail",
+            "model_id": "01h81y7wb8en9jzbfxdt4ydg32",
+            "uuid": "e3f7fab1-d3af-4fef-8c31-44bd31e7a4ef",
+            "collection_name": "confirmed_cargo_image",
+            "name": "adidas",
+            "file_name": "adidas.jpeg",
+            "mime_type": "image/jpeg",
+            "disk": "s3",
+            "conversions_disk": "s3",
+            "size": 52688,
+            "manipulations": [],
+            "custom_properties": [],
+            "generated_conversions": [],
+            "responsive_images": [],
+            "order_column": 1,
+            "created_at": "2023-08-17T14:26:24.000000Z",
+            "updated_at": "2023-08-17T14:26:24.000000Z",
+            "original_url": "https://dmznzvpllzeku.cloudfront.net/1237/adidas.jpeg",
+            "preview_url": ""
+          }
+        ]
+      }
+    ]
+  }
+}

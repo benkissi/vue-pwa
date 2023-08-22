@@ -1,0 +1,566 @@
+{
+  "status": true,
+  "msg": "Success",
+  "data": {
+    "current_page": 1,
+    "data": [
+      {
+        "id": "01h4e5h4msvk4t2fnnngqbgkzz",
+        "created_at": "2023-07-03T15:21:54.000000Z",
+        "updated_at": "2023-07-03T15:21:54.000000Z",
+        "deleted_at": null,
+        "business_name": "Magnus Trucking",
+        "vendor_type": "Truck owner",
+        "business_address": "Lagos",
+        "business_phone_number": "+234 908 873 2567",
+        "business_email": null,
+        "contact_person_first_name": null,
+        "contact_person_last_name": null,
+        "contact_person_phone_number": null,
+        "contact_person_email": null,
+        "status": "active",
+        "business_address_details": {
+          "street": null,
+          "sub_locality": null,
+          "city": "Lagos",
+          "country": "Nigeria",
+          "countryCode": "NG",
+          "long": 3.3792057,
+          "lat": 6.5243793,
+          "name": "Lagos"
+        },
+        "for_logistics_partner": false,
+        "logistics_partner_id": null,
+        "services": [
+          {
+            "id": "01h14veh1baw5zhj0y8rfctt67",
+            "name": "E-tracking",
+            "created_at": "2023-05-23T17:45:27.000000Z",
+            "updated_at": "2023-05-23T17:45:27.000000Z",
+            "deleted_at": null,
+            "pivot": {
+              "vendor_id": "01h4e5h4msvk4t2fnnngqbgkzz",
+              "service_id": "01h14veh1baw5zhj0y8rfctt67"
+            }
+          },
+          {
+            "id": "01h14veq7x1hh7vz5t53fcgvz1",
+            "name": "First Mile Cost",
+            "created_at": "2023-05-23T17:45:33.000000Z",
+            "updated_at": "2023-05-23T17:45:33.000000Z",
+            "deleted_at": null,
+            "pivot": {
+              "vendor_id": "01h4e5h4msvk4t2fnnngqbgkzz",
+              "service_id": "01h14veq7x1hh7vz5t53fcgvz1"
+            }
+          },
+          {
+            "id": "01h14ver38fw0c0p3agajq578z",
+            "name": "Last Mile Cost",
+            "created_at": "2023-05-23T17:45:34.000000Z",
+            "updated_at": "2023-05-23T17:45:34.000000Z",
+            "deleted_at": null,
+            "pivot": {
+              "vendor_id": "01h4e5h4msvk4t2fnnngqbgkzz",
+              "service_id": "01h14ver38fw0c0p3agajq578z"
+            }
+          }
+        ],
+        "payment_modes": {
+          "id": "01h4e5mfdfbreat2w11nxjgkdg",
+          "vendor_id": "01h4e5h4msvk4t2fnnngqbgkzz",
+          "payment_modes": [
+            {
+              "payment_mode_type": "bank",
+              "payment_mode_details": {
+                "bank_name": "Africa Investment Bank",
+                "swift_code": "22-0",
+                "account_details": [
+                  {
+                    "bank_branch": "Abuja",
+                    "account_name": "Magus trucking",
+                    "account_number": "0908873290",
+                    "account_currency": "USD"
+                  }
+                ]
+              }
+            },
+            {
+              "payment_mode_type": "bank",
+              "payment_mode_details": {
+                "bank_name": "GTCO",
+                "swift_code": "YU00",
+                "account_details": [
+                  {
+                    "bank_branch": "Apapa",
+                    "account_name": "Magnus truck",
+                    "account_number": "0802237849",
+                    "account_currency": "NGN"
+                  }
+                ]
+              }
+            },
+            {
+              "payment_mode_type": "mobile_money",
+              "payment_mode_details": {
+                "mobile_network": "MOMO",
+                "mobile_money_details": "*223*3#"
+              }
+            },
+            {
+              "payment_mode_type": "cash"
+            }
+          ],
+          "created_at": "2023-07-03T15:23:43.000000Z",
+          "updated_at": "2023-07-03T15:23:43.000000Z",
+          "deleted_at": null
+        }
+      },
+      {
+        "id": "01h4dwra1h2hynm4rrshqhf50t",
+        "created_at": "2023-07-03T12:48:31.000000Z",
+        "updated_at": "2023-07-03T12:48:31.000000Z",
+        "deleted_at": null,
+        "business_name": "Wendell",
+        "vendor_type": "Shipping line owner",
+        "business_address": "Apo Roundabout",
+        "business_phone_number": "+234 803 390 9367",
+        "business_email": null,
+        "contact_person_first_name": null,
+        "contact_person_last_name": null,
+        "contact_person_phone_number": null,
+        "contact_person_email": null,
+        "status": "active",
+        "business_address_details": {
+          "street": "Apo Roundabout",
+          "sub_locality": null,
+          "city": "Abuja",
+          "country": "Nigeria",
+          "countryCode": "NG",
+          "long": 7.491185199999999,
+          "lat": 9.0134554,
+          "name": "Apo Roundabout"
+        },
+        "for_logistics_partner": false,
+        "logistics_partner_id": null,
+        "services": [
+          {
+            "id": "01h14vej7s0y5tj2amrp12trpg",
+            "name": "Freight Cost",
+            "created_at": "2023-05-23T17:45:28.000000Z",
+            "updated_at": "2023-05-23T17:45:28.000000Z",
+            "deleted_at": null,
+            "pivot": {
+              "vendor_id": "01h4dwra1h2hynm4rrshqhf50t",
+              "service_id": "01h14vej7s0y5tj2amrp12trpg"
+            }
+          }
+        ],
+        "payment_modes": {
+          "id": "01h4dwse4fa4exk4q2c958b5tq",
+          "vendor_id": "01h4dwra1h2hynm4rrshqhf50t",
+          "payment_modes": [
+            {
+              "payment_mode_type": "cash"
+            },
+            {
+              "payment_mode_type": "bank",
+              "payment_mode_details": {
+                "bank_name": "Africa Investment Bank",
+                "swift_code": "AW90",
+                "account_details": [
+                  {
+                    "bank_branch": "Abuja",
+                    "account_name": "Wendel",
+                    "account_number": "0890348750",
+                    "account_currency": "NGN"
+                  }
+                ]
+              }
+            }
+          ],
+          "created_at": "2023-07-03T12:49:08.000000Z",
+          "updated_at": "2023-07-03T12:49:08.000000Z",
+          "deleted_at": null
+        }
+      },
+      {
+        "id": "01h3ksrvf9j4z78x87kpznwp1r",
+        "created_at": "2023-06-23T09:36:08.000000Z",
+        "updated_at": "2023-06-23T09:36:08.000000Z",
+        "deleted_at": null,
+        "business_name": "Thymes",
+        "vendor_type": "Shipping line owner",
+        "business_address": "Apapa Wharf",
+        "business_phone_number": null,
+        "business_email": null,
+        "contact_person_first_name": null,
+        "contact_person_last_name": null,
+        "contact_person_phone_number": null,
+        "contact_person_email": null,
+        "status": "active",
+        "business_address_details": {
+          "street": "Apapa Wharf",
+          "sub_locality": "Apapa",
+          "city": "Lagos",
+          "country": "Nigeria",
+          "countryCode": "NG",
+          "long": 3.39296,
+          "lat": 6.4372218,
+          "name": "Apapa Wharf"
+        },
+        "for_logistics_partner": false,
+        "logistics_partner_id": null,
+        "services": [
+          {
+            "id": "01h14vej7s0y5tj2amrp12trpg",
+            "name": "Freight Cost",
+            "created_at": "2023-05-23T17:45:28.000000Z",
+            "updated_at": "2023-05-23T17:45:28.000000Z",
+            "deleted_at": null,
+            "pivot": {
+              "vendor_id": "01h3ksrvf9j4z78x87kpznwp1r",
+              "service_id": "01h14vej7s0y5tj2amrp12trpg"
+            }
+          },
+          {
+            "id": "01h14vemqyxj11qx0zdt6zjrhr",
+            "name": "Shipping Line Administration Charge",
+            "created_at": "2023-05-23T17:45:31.000000Z",
+            "updated_at": "2023-05-23T17:45:31.000000Z",
+            "deleted_at": null,
+            "pivot": {
+              "vendor_id": "01h3ksrvf9j4z78x87kpznwp1r",
+              "service_id": "01h14vemqyxj11qx0zdt6zjrhr"
+            }
+          }
+        ],
+        "payment_modes": {
+          "id": "01h3kst8jvqypawrkmgq6ze8mx",
+          "vendor_id": "01h3ksrvf9j4z78x87kpznwp1r",
+          "payment_modes": [
+            {
+              "payment_mode_type": "bank",
+              "payment_mode_details": {
+                "bank_name": "GTCO",
+                "swift_code": "GT909",
+                "account_details": [
+                  {
+                    "bank_branch": "Apapa",
+                    "account_name": "Freight",
+                    "account_number": "0902378908",
+                    "account_currency": "USD"
+                  }
+                ]
+              }
+            },
+            {
+              "payment_mode_type": "cash"
+            }
+          ],
+          "created_at": "2023-06-23T09:36:54.000000Z",
+          "updated_at": "2023-06-23T09:36:54.000000Z",
+          "deleted_at": null
+        }
+      },
+      {
+        "id": "01h2acx2b8bpbvtw2x7b1gpx5r",
+        "created_at": "2023-06-07T07:42:23.000000Z",
+        "updated_at": "2023-06-07T07:42:23.000000Z",
+        "deleted_at": null,
+        "business_name": "Alli Trucking",
+        "vendor_type": "Truck owner",
+        "business_address": "11 Opebi Rd",
+        "business_phone_number": "+234 807 686 5444",
+        "business_email": "hyu@gyt.vom",
+        "contact_person_first_name": null,
+        "contact_person_last_name": null,
+        "contact_person_phone_number": null,
+        "contact_person_email": null,
+        "status": "active",
+        "business_address_details": {
+          "street": "Opebi Road",
+          "sub_locality": null,
+          "city": "Ikeja",
+          "country": "Nigeria",
+          "countryCode": "NG",
+          "long": 3.35643,
+          "lat": 6.5947435,
+          "name": "11 Opebi Rd"
+        },
+        "for_logistics_partner": false,
+        "logistics_partner_id": null,
+        "services": [
+          {
+            "id": "01h14veh1baw5zhj0y8rfctt67",
+            "name": "E-tracking",
+            "created_at": "2023-05-23T17:45:27.000000Z",
+            "updated_at": "2023-05-23T17:45:27.000000Z",
+            "deleted_at": null,
+            "pivot": {
+              "vendor_id": "01h2acx2b8bpbvtw2x7b1gpx5r",
+              "service_id": "01h14veh1baw5zhj0y8rfctt67"
+            }
+          },
+          {
+            "id": "01h14veq7x1hh7vz5t53fcgvz1",
+            "name": "First Mile Cost",
+            "created_at": "2023-05-23T17:45:33.000000Z",
+            "updated_at": "2023-05-23T17:45:33.000000Z",
+            "deleted_at": null,
+            "pivot": {
+              "vendor_id": "01h2acx2b8bpbvtw2x7b1gpx5r",
+              "service_id": "01h14veq7x1hh7vz5t53fcgvz1"
+            }
+          },
+          {
+            "id": "01h14ver38fw0c0p3agajq578z",
+            "name": "Last Mile Cost",
+            "created_at": "2023-05-23T17:45:34.000000Z",
+            "updated_at": "2023-05-23T17:45:34.000000Z",
+            "deleted_at": null,
+            "pivot": {
+              "vendor_id": "01h2acx2b8bpbvtw2x7b1gpx5r",
+              "service_id": "01h14ver38fw0c0p3agajq578z"
+            }
+          }
+        ],
+        "payment_modes": {
+          "id": "01h2aczv78a60ra719wtj4csvz",
+          "vendor_id": "01h2acx2b8bpbvtw2x7b1gpx5r",
+          "payment_modes": [
+            {
+              "payment_mode_type": "bank",
+              "payment_mode_details": {
+                "bank_name": "CBN",
+                "swift_code": "0909",
+                "account_details": [
+                  {
+                    "bank_branch": "Lagos",
+                    "account_name": "ALLI",
+                    "account_number": "0908976546",
+                    "account_currency": "GHS"
+                  }
+                ]
+              }
+            },
+            {
+              "payment_mode_type": "cash"
+            }
+          ],
+          "created_at": "2023-06-07T07:43:54.000000Z",
+          "updated_at": "2023-06-09T08:42:56.000000Z",
+          "deleted_at": null
+        }
+      },
+      {
+        "id": "01h1rfw3erm7q2r6hp0ggm7d11",
+        "created_at": "2023-05-31T08:47:57.000000Z",
+        "updated_at": "2023-06-08T15:01:23.000000Z",
+        "deleted_at": null,
+        "business_name": "Hyundai Trucking",
+        "vendor_type": "Truck owner",
+        "business_address": "2 Apapa Rd",
+        "business_phone_number": "+2349088722309",
+        "business_email": "cmadcm@cmacdm.com",
+        "contact_person_first_name": "Arron",
+        "contact_person_last_name": "Mark",
+        "contact_person_phone_number": null,
+        "contact_person_email": null,
+        "status": "active",
+        "business_address_details": {
+          "street": "Apapa Road",
+          "sub_locality": null,
+          "city": "Lagos",
+          "country": "Nigeria",
+          "countryCode": "NG",
+          "long": 3.3662694,
+          "lat": 6.4521277,
+          "name": "2 Apapa Rd"
+        },
+        "for_logistics_partner": false,
+        "logistics_partner_id": null,
+        "services": [
+          {
+            "id": "01h14veq7x1hh7vz5t53fcgvz1",
+            "name": "First Mile Cost",
+            "created_at": "2023-05-23T17:45:33.000000Z",
+            "updated_at": "2023-05-23T17:45:33.000000Z",
+            "deleted_at": null,
+            "pivot": {
+              "vendor_id": "01h1rfw3erm7q2r6hp0ggm7d11",
+              "service_id": "01h14veq7x1hh7vz5t53fcgvz1"
+            }
+          },
+          {
+            "id": "01h14ver38fw0c0p3agajq578z",
+            "name": "Last Mile Cost",
+            "created_at": "2023-05-23T17:45:34.000000Z",
+            "updated_at": "2023-05-23T17:45:34.000000Z",
+            "deleted_at": null,
+            "pivot": {
+              "vendor_id": "01h1rfw3erm7q2r6hp0ggm7d11",
+              "service_id": "01h14ver38fw0c0p3agajq578z"
+            }
+          }
+        ],
+        "payment_modes": {
+          "id": "01h1rfxdwtmdb3r81t81d10dq6",
+          "vendor_id": "01h1rfw3erm7q2r6hp0ggm7d11",
+          "payment_modes": [
+            {
+              "payment_mode_type": "bank",
+              "payment_mode_details": {
+                "bank_name": "CBN",
+                "swift_code": "00987",
+                "account_details": [
+                  {
+                    "bank_branch": "Lagos",
+                    "account_name": "Hyundai Trucking",
+                    "account_number": "0098763980",
+                    "account_currency": "USD"
+                  }
+                ]
+              }
+            }
+          ],
+          "created_at": "2023-05-31T08:48:41.000000Z",
+          "updated_at": "2023-06-12T15:41:36.000000Z",
+          "deleted_at": null
+        }
+      },
+      {
+        "id": "01h16my9c7p0sa70rbe2s9c2ye",
+        "created_at": "2023-05-24T10:30:12.000000Z",
+        "updated_at": "2023-05-24T10:30:12.000000Z",
+        "deleted_at": null,
+        "business_name": "Seyab limited",
+        "vendor_type": "Freight forwarder",
+        "business_address": "Busto Arsizio",
+        "business_phone_number": "+233 55 666 7777",
+        "business_email": "seyab82792@fsouda.com",
+        "contact_person_first_name": "Seyab",
+        "contact_person_last_name": "Bayes",
+        "contact_person_phone_number": "+233 55 666 7777",
+        "contact_person_email": "seyab82792@fsouda.com",
+        "status": "active",
+        "business_address_details": {
+          "street": null,
+          "sub_locality": null,
+          "city": "Busto Arsizio",
+          "country": "Italy",
+          "countryCode": "IT",
+          "long": 8.8531265,
+          "lat": 45.611892,
+          "name": "Busto Arsizio"
+        },
+        "for_logistics_partner": false,
+        "logistics_partner_id": null,
+        "services": [
+          {
+            "id": "01h14veg6q5r186k88pj9h2t2h",
+            "name": "Demurrage Charge",
+            "created_at": "2023-05-23T17:45:26.000000Z",
+            "updated_at": "2023-05-23T17:45:26.000000Z",
+            "deleted_at": null,
+            "pivot": {
+              "vendor_id": "01h16my9c7p0sa70rbe2s9c2ye",
+              "service_id": "01h14veg6q5r186k88pj9h2t2h"
+            }
+          },
+          {
+            "id": "01h14veh1baw5zhj0y8rfctt67",
+            "name": "E-tracking",
+            "created_at": "2023-05-23T17:45:27.000000Z",
+            "updated_at": "2023-05-23T17:45:27.000000Z",
+            "deleted_at": null,
+            "pivot": {
+              "vendor_id": "01h16my9c7p0sa70rbe2s9c2ye",
+              "service_id": "01h14veh1baw5zhj0y8rfctt67"
+            }
+          },
+          {
+            "id": "01h14vej7s0y5tj2amrp12trpg",
+            "name": "Freight Cost",
+            "created_at": "2023-05-23T17:45:28.000000Z",
+            "updated_at": "2023-05-23T17:45:28.000000Z",
+            "deleted_at": null,
+            "pivot": {
+              "vendor_id": "01h16my9c7p0sa70rbe2s9c2ye",
+              "service_id": "01h14vej7s0y5tj2amrp12trpg"
+            }
+          },
+          {
+            "id": "01h14veq7x1hh7vz5t53fcgvz1",
+            "name": "First Mile Cost",
+            "created_at": "2023-05-23T17:45:33.000000Z",
+            "updated_at": "2023-05-23T17:45:33.000000Z",
+            "deleted_at": null,
+            "pivot": {
+              "vendor_id": "01h16my9c7p0sa70rbe2s9c2ye",
+              "service_id": "01h14veq7x1hh7vz5t53fcgvz1"
+            }
+          }
+        ],
+        "payment_modes": {
+          "id": "01h16mz5w1xda6p0372f64fpks",
+          "vendor_id": "01h16my9c7p0sa70rbe2s9c2ye",
+          "payment_modes": [
+            {
+              "payment_mode_type": "bank",
+              "payment_mode_details": {
+                "bank_name": "Absa",
+                "swift_code": "4586545",
+                "account_details": [
+                  {
+                    "bank_branch": "Madina",
+                    "account_name": "Seyaba business",
+                    "account_number": "57799000676",
+                    "account_currency": "GHS"
+                  }
+                ]
+              }
+            },
+            {
+              "payment_mode_type": "mobile_money",
+              "payment_mode_details": {
+                "mobile_network": "MTN",
+                "mobile_money_details": "+23356788910"
+              }
+            }
+          ],
+          "created_at": "2023-05-24T10:30:41.000000Z",
+          "updated_at": "2023-06-23T04:05:31.000000Z",
+          "deleted_at": null
+        }
+      }
+    ],
+    "first_page_url": "http://jetvapi.test.jetstreamafrica.com/admin-api/v1/vendors?page=1",
+    "from": 1,
+    "last_page": 1,
+    "last_page_url": "http://jetvapi.test.jetstreamafrica.com/admin-api/v1/vendors?page=1",
+    "links": [
+      {
+        "url": null,
+        "label": "&laquo; Previous",
+        "active": false
+      },
+      {
+        "url": "http://jetvapi.test.jetstreamafrica.com/admin-api/v1/vendors?page=1",
+        "label": "1",
+        "active": true
+      },
+      {
+        "url": null,
+        "label": "Next &raquo;",
+        "active": false
+      }
+    ],
+    "next_page_url": null,
+    "path": "http://jetvapi.test.jetstreamafrica.com/admin-api/v1/vendors",
+    "per_page": 100,
+    "prev_page_url": null,
+    "to": 6,
+    "total": 6
+  }
+}
